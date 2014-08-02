@@ -1,0 +1,35 @@
+//Cambio de escenario
+function OnMouseDown () {
+
+ Application.LoadLevel("inicio");
+ 
+ }
+
+
+//Boton atras
+function OnMouseDown () {
+
+ Application.LoadLevel("inicio");
+ 
+ }
+ 
+ //Creditos 1
+ function OnMouseDown () {
+
+ Application.LoadLevel("credito");
+ 
+ }
+ 
+ //Creditos 2
+ function OnMouseDown () {
+
+ Application.LoadLevel("creditos");
+ 
+ }
+ 
+ //Botón Opcion
+ function OnMouseDown () {
+
+ Application.LoadLevel("OPCIONES");
+ 
+ }
