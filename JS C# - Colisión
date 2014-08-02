@@ -47,3 +47,27 @@ Debug.Log("holas");
 	Debug.Log("Colision con Fantasma!"); //<----------------------------------------------------------
 	
 }*/
+
+//C# Colision con Esfera
+using UnityEngine;
+using System.Collections;
+
+public class collevel1 : MonoBehaviour {
+
+	// Use this for initialization
+	void Start () {
+	
+	}
+	
+	// Update is called once per frame
+	void Update () {
+	
+	}
+	void OnCollisionEnter(Collision collision){
+		//renderer.material.color=Color.blue
+		//Destroy(gameObject);
+		
+		Application.LoadLevel("scenalaberinto");
+	}
+}
+
