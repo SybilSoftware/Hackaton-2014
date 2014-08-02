@@ -1,5 +1,0 @@
-function OnMouseDown () {
-
- Application.LoadLevel("inicio");
- 
- }
